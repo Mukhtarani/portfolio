@@ -1,0 +1,114 @@
+*{
+   box-sizing: border-box;
+}
+#logo{
+    font-family: "Raleway", "Georgia", "serif";
+    letter-spacing: 0.115em;
+    color: red;
+    margin-left: 85px;
+    margin-right: 70px;
+    transition: width 2s ease-in-out;
+    animation: logo 2s linear 2s infinite; /* shorthand for animation */
+    text-align: center;
+    margin-top: 0.3125em;
+}
+@keyframes logo{
+    from{ color: red;}
+    to{color: white;}
+}
+
+#headericons a{
+    text-decoration: none;
+}
+
+
+#headericons{
+    margin: -20px 0px -10px -10px;
+    padding-bottom: 5px;
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+}
+
+#headericons ul{
+  display: inline-block;
+  background-color: rgb(11, 88, 11) ;
+  padding: 10px;
+  display: flex;
+  list-style-type: none;
+  /* color: white; */
+}
+
+#headericons input[type=image]{
+    width: 24px;
+    height:auto;
+    color: thistle;
+    background-color: rgba(216, 191, 216, 0.623);
+    padding: -50px;
+}
+
+#menu{
+    margin-left: -2.50em; /* 20px with 1em= 16px */
+    margin-top: 0.3125em;
+}
+
+#contrast{
+    margin-left: -10px;
+    margin-top: 0.3125em;
+    
+}
+
+#contact{
+    margin-top: 0.25em;
+
+}
+
+#headericons li{
+    margin-left: 30px;
+    margin-bottom: -20px;
+    z-index: 15;
+}
+
+#hamburger ul{
+  background-color:rgb(195, 248, 89);
+  display: block;
+  list-style-type: none;
+    z-index: 15;
+    position: absolute;
+    top: -10;
+    width: 100%;
+  
+  
+  
+}
+
+#hamburger{
+    margin: 20px -25px 25px -50px;
+    /* z-index: 15; */
+    display: none;
+    /* position: absolute;
+    top: 0;
+    width: 100%; */
+   
+    
+}
+
+#hamburger li{ 
+    font-family: "Lato","Georgia", "serif" ;
+    text-align: center;
+    padding: 20px 20px;
+    border-bottom: 1px solid gainsboro;
+    
+}
+
+
+.containers{
+    padding: 500px 50px;
+    background-color:lime;
+    border: 2px solid gainsboro;
+    border-radius: 20px;
+    /* position: absolute; */
+    z-index: 1;
+    /* width: 100%; */
+    
+}
