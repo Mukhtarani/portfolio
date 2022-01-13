@@ -5,4 +5,5 @@ function menu(){
     }else{
        hamburger.style.display="none";
     }
+
 }
